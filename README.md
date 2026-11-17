@@ -15,7 +15,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 
@@ -29,46 +28,36 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/Solution%20screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mtshuma16-crypto/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/mtshuma16-crypto/blog-preview-card)
+- Live Site URL: (https://mtshuma16-crypto.github.io/blog-preview-card/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS 
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 
 ### What I learned
 
-I learned Shadow boxing 
+I learned how to use the Box-shadow Property, it accepts between two and six values which are "inset, horizontal offset, vertical offset, blur radius, spread radius and color". I got an apportunity to also compare Bow-shadow with Drop-shadow (content shasdow).
 
-To see how you can add code snippets, see below:
+I had to find a way of reducing font size for smaller screens without using media queries, that is when i learnt about the Clamp value.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-size:clamp(0.6875rem, 0.5775rem + 0.4695vw, 1rem);
+    font-family:'figtree', sans-serif;
 }
 ```
 
@@ -76,35 +65,33 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Arears that i want to continue focusing on in the future projects.
+
+ 1.Focus state.
+ 2.Css custom properties, how to create one and why.
+ 3.Creating a .gitignore file and what type of flies are to be stored inside.
 
 
 
 ### Useful resources
 
-- [Example resource 1](https://youtu.be/8Z9zimqUCzA) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Box-shadow and filter: drop-shadow () by Kevin Powell](https://youtu.be/8Z9zimqUCzA) - This helped me with understanding the difference between the two and when to use the properties.I really liked how he explains the concepts, it was easy to understand for a begginer like me.
+- [How to convert a maximum pixel font size into a viewport](https://utopia.fyi/clamp/calculator?a=360,1240) - This is an amazing site which helped me understand about the Clamp value. I'd recommend it to anyone still learning this concept.
 
 
 ### AI Collaboration
 
 Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- I used Gemini 4 Hydrogen.
+- I used it to brainstorm solutions on how to find the Clamp values to use on reducing the font size for smaller screens.
+- I came across a site that helps with the calculations known as Utopia Fluid Type Scale Calculator.
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [blog-preview-card](https://github.com/mtshuma16-crypto/blog-preview-card)
+- Frontend Mentor - [@mtshuma16-crypto](https://www.frontendmentor.io/profile/mtshuma16-crypto)
 
 
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
